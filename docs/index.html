@@ -62,11 +62,18 @@ $(function() {
 </iframe>
 </div>
 
-<div class="header">
+<div class="PageDoc"><div class="header">
   <div class="headertitle">
 <div class="title">Test ESP32 for ME507 Documentation</div>  </div>
 </div><!--header-->
 <div class="contents">
+<div class="textblock"><h1><a class="anchor" id="s_intro"></a>
+Introduction</h1>
+<p>This is an example main page which describes an ME507 example project. The project tests an ESP32 processor, in a module, on a cheap prototyping board. VSCode is used to program the module, using PlatformIO and the Arduino environment. Arduino for this processor happens to have FreeRTOS conveniently included, and the most basic use of the RTOS is demonstrated. Active and passive voice are mixed up in order to demonstrate slightly poor documentation practices.</p>
+<h1><a class="anchor" id="s_hardware"></a>
+Hardware</h1>
+<p>The microcontroller is in an ESP-WROOM-32 module on a KeeYees breakout board. A leftover motor from ME405, which has a quadrature encoder on its posterior end, is used to provide an encoder to test a quadrature encoder decoding library. The whole lot is powered through its USB cable, as there isn't a motor driver involved in this project; the motor is just rotated by hand to make the encoder count. </p>
+</div></div><!-- PageDoc -->
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
