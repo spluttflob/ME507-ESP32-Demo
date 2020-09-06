@@ -90,12 +90,12 @@ Functions</h2></td></tr>
 <tr class="memitem:af46dcd13a6d269b6e0d10a49957e90ce"><td class="memItemLeft" align="right" valign="top">void()&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#af46dcd13a6d269b6e0d10a49957e90ce">anotherTask</a> (void *p_params)</td></tr>
 <tr class="memdesc:af46dcd13a6d269b6e0d10a49957e90ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">A fairly useless demonstration task function.  <a href="main_8cpp.html#af46dcd13a6d269b6e0d10a49957e90ce">More...</a><br /></td></tr>
 <tr class="separator:af46dcd13a6d269b6e0d10a49957e90ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fc01d736fe50cf5b977f755b675f11d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d">setup</a> ()</td></tr>
-<tr class="memdesc:a4fc01d736fe50cf5b977f755b675f11d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Arduino setup function which runs once at program startup.  <a href="main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d">More...</a><br /></td></tr>
-<tr class="separator:a4fc01d736fe50cf5b977f755b675f11d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe461d27b9c48d5921c00d521181f12f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#afe461d27b9c48d5921c00d521181f12f">loop</a> ()</td></tr>
-<tr class="memdesc:afe461d27b9c48d5921c00d521181f12f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Arduino's low-priority loop function.  <a href="main_8cpp.html#afe461d27b9c48d5921c00d521181f12f">More...</a><br /></td></tr>
-<tr class="separator:afe461d27b9c48d5921c00d521181f12f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7dfd9b79bc5a37d7df40207afbc5431f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#a7dfd9b79bc5a37d7df40207afbc5431f">setup</a> (void)</td></tr>
+<tr class="memdesc:a7dfd9b79bc5a37d7df40207afbc5431f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Arduino setup function which runs once at program startup.  <a href="main_8cpp.html#a7dfd9b79bc5a37d7df40207afbc5431f">More...</a><br /></td></tr>
+<tr class="separator:a7dfd9b79bc5a37d7df40207afbc5431f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b33edabd7f1c4e4a0bf32c67269be2f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="main_8cpp.html#a0b33edabd7f1c4e4a0bf32c67269be2f">loop</a> (void)</td></tr>
+<tr class="memdesc:a0b33edabd7f1c4e4a0bf32c67269be2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Arduino's low-priority loop function.  <a href="main_8cpp.html#a0b33edabd7f1c4e4a0bf32c67269be2f">More...</a><br /></td></tr>
+<tr class="separator:a0b33edabd7f1c4e4a0bf32c67269be2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -128,7 +128,7 @@ ESP32Encoder&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 </div><div class="memdoc">
 
 <p>A fairly useless demonstration task function. </p>
-<p>This function is run by the RTOS scheduler at a higher priority than <code><a class="el" href="main_8cpp.html#afe461d27b9c48d5921c00d521181f12f" title="Arduino&#39;s low-priority loop function.">loop()</a></code>, so it can interrupt <code><a class="el" href="main_8cpp.html#afe461d27b9c48d5921c00d521181f12f" title="Arduino&#39;s low-priority loop function.">loop()</a></code> when it needs to. It just prints an asterisk once every two seconds. </p><dl class="params"><dt>Parameters</dt><dd>
+<p>This function is run by the RTOS scheduler at a higher priority than <code><a class="el" href="main_8cpp.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title="Arduino&#39;s low-priority loop function.">loop()</a></code>, so it can interrupt <code><a class="el" href="main_8cpp.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title="Arduino&#39;s low-priority loop function.">loop()</a></code> when it needs to. It just prints an asterisk once every two seconds. </p><dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">p_params</td><td>A pointer to any parameters passed to this task; there aren't any, so this value is ignored </td></tr>
   </table>
@@ -137,8 +137,8 @@ ESP32Encoder&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 
 </div>
 </div>
-<a id="afe461d27b9c48d5921c00d521181f12f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe461d27b9c48d5921c00d521181f12f">&#9670;&nbsp;</a></span>loop()</h2>
+<a id="a0b33edabd7f1c4e4a0bf32c67269be2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b33edabd7f1c4e4a0bf32c67269be2f">&#9670;&nbsp;</a></span>loop()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -146,6 +146,7 @@ ESP32Encoder&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
         <tr>
           <td class="memname">void loop </td>
           <td>(</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -153,12 +154,12 @@ ESP32Encoder&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
 </div><div class="memdoc">
 
 <p>Arduino's low-priority loop function. </p>
-<p>A non-RTOS Arduino program runs all of its continuously running code in this function after <code><a class="el" href="main_8cpp.html#a4fc01d736fe50cf5b977f755b675f11d" title="Arduino setup function which runs once at program startup.">setup()</a></code> has finished. When using FreeRTOS, <code><a class="el" href="main_8cpp.html#afe461d27b9c48d5921c00d521181f12f" title="Arduino&#39;s low-priority loop function.">loop()</a></code> implements a low priority task on most microcontrollers, and crashes on some others. This demonstration function reads the optical encoder and prints its position. </p>
+<p>A non-RTOS Arduino program runs all of its continuously running code in this function after <code><a class="el" href="main_8cpp.html#a7dfd9b79bc5a37d7df40207afbc5431f" title="Arduino setup function which runs once at program startup.">setup()</a></code> has finished. When using FreeRTOS, <code><a class="el" href="main_8cpp.html#a0b33edabd7f1c4e4a0bf32c67269be2f" title="Arduino&#39;s low-priority loop function.">loop()</a></code> implements a low priority task on most microcontrollers, and crashes on some others. This demonstration function reads the optical encoder and prints its position. </p>
 
 </div>
 </div>
-<a id="a4fc01d736fe50cf5b977f755b675f11d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4fc01d736fe50cf5b977f755b675f11d">&#9670;&nbsp;</a></span>setup()</h2>
+<a id="a7dfd9b79bc5a37d7df40207afbc5431f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dfd9b79bc5a37d7df40207afbc5431f">&#9670;&nbsp;</a></span>setup()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -166,6 +167,7 @@ ESP32Encoder&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hr
         <tr>
           <td class="memname">void setup </td>
           <td>(</td>
+          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
